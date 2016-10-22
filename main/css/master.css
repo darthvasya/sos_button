@@ -113,7 +113,7 @@ header a:active, a:visited, a:link {
 /*main section*/
 section.main {
   padding-top: 40px;
-  height: 500px;
+  height: 450px;
   background-color: #FF5733;
   color: white;
 }
@@ -233,6 +233,22 @@ section.main .app s img:first-child{
   }
 }
 
+@media  screen and (max-width : 1024px) {
+  section.main .iphone {
+    position: absolute;
+    right: 0px;
+    width: 320px;
+  }
+
+  section.main p.intro {
+    width: 250px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+  }
+}
+
 @media  screen and (max-width : 440px) {
   section.main .iphone {
     position: relative;
@@ -324,6 +340,138 @@ section.main .app s img:first-child{
 /*Scope*/
 
 section.scope {
-  height: 600px;
+  height: 420px;
   background-color: #FF5733;
+}
+
+section.scope h1{
+  text-align: center;
+  color: black;
+}
+
+section.scope .news .new .rect{
+  margin-left: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50% 50%;
+  background: 50% 50% no-repeat white;
+}
+
+section.scope .news .new .txt{
+  display: block;
+  position: absolute;
+  width: 60%;
+  right: 0px;
+  top: 0;
+  color: white;
+  letter-spacing: 0.3px;
+}
+
+section.scope .news .new .txt .head-txt{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+section.scope .news .new .txt .cont-txt{
+  font-size: 12px;
+}
+
+section.scope .news {
+  margin-top: 40px;
+}
+
+section.scope .news-2 {
+  margin-top: 210px;
+}
+
+@media  screen and (max-width : 1024px) {
+  section.scope {
+    height: 470px;
+  }
+
+  section.scope .news-2 {
+    margin-top: 230px;
+  }
+
+  section.scope .news .new .rect{
+    margin-left: 0px;
+  }
+}
+
+@media  screen and (max-width : 770px) {
+  section.scope .news .new .rect{
+    margin-left: 0px;
+  }
+
+  section.scope .news-2 {
+    margin-top: 100px;
+  }
+
+  section.scope .news {
+    margin: 20px;
+  }
+
+  section.scope .news .new {
+    margin: 40px;
+  }
+
+  section.scope .news .new .txt{
+    width: 80%;
+  }
+
+  section.scope {
+    height: 660px;
+  }
+}
+
+@media  screen and (max-width : 470px) {
+  section.scope .news .new .rect{
+    margin-left: 0px;
+  }
+
+  section.scope .news-2 {
+    margin-top: 100px;
+  }
+
+  section.scope .news {
+    margin: 0px;
+  }
+
+  section.scope .news .new {
+    margin: 70px 20px;
+  }
+
+  section.scope .news .new .txt{
+    width: 70%;
+  }
+
+  section.scope {
+    height: 940px;
+  }
+}
+
+@media  screen and (max-width : 320px) {
+  section.scope .news .new .rect{
+    margin-left: 0px;
+  }
+
+  section.scope .news-2 {
+    margin-top: 100px;
+  }
+
+  section.scope .news {
+    margin: 0px;
+  }
+
+  section.scope .news .new {
+    margin: 70px 0px;
+  }
+
+  section.scope .news .new .txt{
+    width: 70%;
+  }
+
+  section.scope {
+    height: 940px;
+  }
 }
