@@ -4,6 +4,21 @@ header {
   color: white;
 }
 
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+header a:active, a:visited, a:link {
+  color: white;
+  text-decoration: none;
+}
+
 .sos-text h1{
   font-size: 17px;
   font-weight: 600;
@@ -22,21 +37,86 @@ header {
 .center-block ul li{
   display: inline;
   padding: 10px 15px;
-
+  -webkit-transition: 0.4s; /* Safari */
+  transition: 0.4s;
 }
 
 .center-block ul li:hover {
-  background-color: #FA6E4F;
+  background-color: white;
+  color: #FF5733;
   cursor: pointer;
 }
 
+.right-block div.lang{
+  font-size: 12px;
+  margin-top: 30px;
+}
 
+.right-block div.lang span {
+  padding: 5px;
+  -webkit-transition: 0.4s; /* Safari */
+  transition: 0.4s;
+}
+
+.right-block div.lang span.ru:hover, span.eng:hover {
+  background-color: #FFF4EE;
+  cursor: pointer;
+  color: #FF5733;
+}
+
+.right-block div.lang .active{
+  background-color: white;
+  color: #FF5733;
+}
+
+/*media queries for heade*/
 @media  screen and (max-width : 990px) {
+
  header {height: 200px;}
 
  header {
    padding-top: 10px;
    text-align: center;
  }
- 
+
+ .center-block ul li{
+   width: 100%;
+ }
+}
+
+@media  screen and (max-width : 481px) {
+  header {
+    height: 320px;
+  }
+
+  .center-block ul li{
+    display: block;
+  }
+}
+
+
+/*main section*/
+section.main {
+  padding-top: 40px;
+  height: 500px;
+  background-color: #FF5733;
+  color: white;
+}
+
+.main h1 {
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 20px;
+}
+
+section.main .iphone {
+  position: absolute;
+  top: 0px;
+  right: -70px;
+}
+
+section.main p.intro {
+  font-size: 18px;
+  width: 390px;
+  letter-spacing: 0.3px;
 }
