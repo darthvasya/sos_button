@@ -1,3 +1,8 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
 header {
   height: 80px;
   background-color: #FF5733;
@@ -70,6 +75,16 @@ header a:active, a:visited, a:link {
 }
 
 /*media queries for heade*/
+@media  screen and (max-width : 1024px) {
+  .right-block div.lang span.ru, span.eng {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+
 @media  screen and (max-width : 990px) {
 
  header {height: 200px;}
@@ -113,4 +128,202 @@ section.main .iphone {
   position: absolute;
   top: 0px;
   right: -70px;
+}
+
+section.main p.intro {
+  padding-top: 15px;
+  font-size: 18px;
+  width: 390px;
+  letter-spacing: 0.3px;
+}
+
+section.main .apps {
+  padding-top: 20px;
+}
+
+section.main .app s img:first-child{
+  padding-right: 15px;
+}
+
+@media  screen and (max-width : 1024px) {
+  section.main .iphone {
+    position: absolute;
+    right: -50px;
+    width: 390px;
+  }
+
+  section.main p.intro {
+    width: 320px;
+  }
+
+  .main h1 {
+    font-size: 36px;
+  }
+
+  section.main {
+      height: 360px;
+  }
+}
+
+@media  screen and (max-width : 768px) {
+  section.main .iphone {
+    position: absolute;
+    right: 0px;
+    width: 390px;
+  }
+
+  section.main p.intro {
+    width: 390px;
+  }
+
+  .main h1 {
+    font-size: 38px;
+  }
+
+}
+
+@media  screen and (max-width : 732px) {
+  section.main .iphone {
+    position: absolute;
+    right: 0px;
+    width: 370px;
+  }
+
+  section.main p.intro {
+    width: 350px;
+  }
+
+  .main h1 {
+    font-size: 38px;
+  }
+
+}
+
+
+@media  screen and (max-width : 670px) {
+  section.main .iphone {
+    position: absolute;
+    right: 0px;
+    width: 350px;
+  }
+
+  section.main p.intro {
+    width: 300px;
+  }
+
+  .main h1 {
+    font-size: 36px;
+  }
+
+}
+
+@media  screen and (max-width : 640px) {
+  section.main .iphone {
+    position: absolute;
+    right: 0px;
+    width: 340px;
+  }
+
+  section.main p.intro {
+    width: 300px;
+  }
+
+  .main h1 {
+    font-size: 35px;
+  }
+}
+
+@media  screen and (max-width : 440px) {
+  section.main .iphone {
+    position: relative;
+    left: 10px;
+    width: 380px;
+  }
+
+  section.main p.intro {
+    width: 380px;
+  }
+
+  .main h1 {
+    font-weight: bold;
+    font-size: 41px;
+    margin-top: 20px;
+  }
+
+  section.main .apps img{
+    display: inline-block;
+    padding: 10px;
+    width: 180px;
+    padding-top: 0px;
+  }
+
+  section.main {
+      height: 640px;
+  }
+}
+
+@media  screen and (max-width : 375px) {
+  section.main .iphone {
+    position: relative;
+    left: 10px;
+    width: 310px;
+  }
+
+  section.main p.intro {
+    width: 310px;
+  }
+
+  .main h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  section.main .apps img{
+    display: inline-block;
+    padding: 10px;
+    width: 150px;
+    padding-top: 0px;
+  }
+
+  section.main {
+      height: 620px;
+  }
+}
+
+
+@media  screen and (max-width : 320px) {
+  section.main .iphone {
+    position: relative;
+    left: 10px;
+    width: 240px;
+  }
+
+  section.main p.intro {
+    width: 280px;
+  }
+
+  .main h1 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 20px;
+  }
+
+  section.main .apps img{
+    display: inline-block;
+    padding: 10px;
+    width: 130px;
+    padding-top: 0px;
+  }
+
+  section.main {
+      height: 600px;
+  }
+}
+
+/*Scope*/
+
+section.scope {
+  height: 600px;
+  background-color: #FF5733;
 }
