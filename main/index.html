@@ -5,10 +5,14 @@
     <title>Main page of sos button</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
 
-    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet/less" type="text/css" href="css/master.less">
+
+    <script src="js/less.min.js" charset="utf-8"></script>
+
+
 
   </head>
   <body>
@@ -28,9 +32,9 @@
         <div class="col-md-2 right-block">
           <!-- icons -->
           <div class="lang">
-            <span><img src="images/twiter.png" alt="" width="25" height="25" /></span>
-            <span><img src="images/facebook.png" alt="" width="25" height="25" /></span>
-            <span><img src="images/vk.png" alt="" width="25" height="25" /></span>
+            <span><a href="#"><img src="images/twiter.png" alt="" width="25" height="25" /></a></span>
+            <span><a href="#"><img src="images/facebook.png" alt="" width="25" height="25" /></a></span>
+            <span><a href="#"><img src="images/vk.png" alt="" width="25" height="25" /></a></span>
             <span class="ru">RU</span>
             <span class="eng active">ENG</span>
           </span>
@@ -141,7 +145,7 @@
       </form>
     </section>
 
-    <section class="news">
+    <!-- <section class="news">
       <h1>Статьи</h1>
       <div class="col-md-2">
 
@@ -181,7 +185,40 @@
       <div class="col-md-2">
 
       </div>
-    </section>
+    </section> -->
+
+    <footer>
+      <div class="col-md-offset-2">
+        <h1 style="margin-left: 12px;">Контакты</h1>
+      </div>
+
+      <div class="col-md-8 col-md-offset-2 conte" style="padding: 0px;">
+        <div class="col-md-3">
+          <span class="typ">служба поддержки</span>
+          <span>support@sosbutton.me</span>
+        </div>
+        <div class="col-md-3">
+          <span class="typ">другие вопросы</span>
+          <span>adminbutton@sosbutton.me</span>
+        </div>
+        <div class="col-md-2 soc">
+          <span><a href="#"><img src="images/twiter.png" alt="" width="25" height="25" /></a></span>
+          <span><a href="#"><img src="images/facebook.png" alt="" width="25" height="25" /></a></span>
+          <span><a href="#"><img src="images/vk.png" alt="" width="25" height="25" /></a></span>
+        </div>
+        <div class="col-md-4">
+          <div class="apps">
+            <a href="#" class="apple"><img src="images/appstore.png" alt=""/></a>
+            <a href="#" class="android"><img src="images/google.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <div class="legal">
+      Copyright (c) 2016 Copyright Holder All Rights Reserved.
+    </div>
 
   </body>
 </html>
