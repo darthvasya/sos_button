@@ -5,7 +5,7 @@
     <title>Main page of sos button</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
 
     <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
@@ -69,8 +69,8 @@
 
       <div class="col-md-8">
         <h1>Возможности приложения</h1>
-        <div class="news">
-          <div class="col-md-4 new">
+        <div class="jumbs">
+          <div class="col-md-4 jumb">
             <div class="rect" style="background-image: url('images/people.png');">
             </div>
             <div class="txt">
@@ -78,7 +78,7 @@
               <p class="cont-txt">Сигнал тревоги получат не только ваши друзья, но и сообщество в радиусе километра </p>
             </div>
           </div>
-          <div class="col-md-4 new">
+          <div class="col-md-4 jumb">
             <div class="rect" style="background-image: url('images/gps.png');">
             </div>
             <div class="txt">
@@ -86,7 +86,7 @@
               <p class="cont-txt">Сигнал тревоги получат не только ваши друзья, но и сообщество в радиусе километра </p>
             </div>
           </div>
-          <div class="col-md-4 new">
+          <div class="col-md-4 jumb">
             <div class="rect" style="background-image: url('images/mic.png');">
             </div>
             <div class="txt">
@@ -95,8 +95,8 @@
             </div>
           </div>
         </div>
-        <div class="news news-2">
-          <div class="col-md-4 new">
+        <div class="jumbs jumbs-2">
+          <div class="col-md-4 jumb">
             <div class="rect" style="background-image: url('images/disabled.png');">
             </div>
             <div class="txt">
@@ -104,7 +104,7 @@
               <p class="cont-txt">Сигнал тревоги получат не только ваши друзья, но и сообщество в радиусе километра </p>
             </div>
           </div>
-          <div class="col-md-4 new">
+          <div class="col-md-4 jumb">
             <div class="rect" style="background-image: url('images/message.png');">
             </div>
             <div class="txt">
@@ -112,7 +112,7 @@
               <p class="cont-txt">Сигнал тревоги получат не только ваши друзья, но и сообщество в радиусе километра </p>
             </div>
           </div>
-          <div class="col-md-4 new">
+          <div class="col-md-4 jumb">
             <div class="rect" style="background-image: url('images/phone.png');">
             </div>
             <div class="txt">
@@ -129,17 +129,58 @@
     </section>
 
     <section class="subscribe">
-      <h2>Подпишись на рассылку</h2>
+      <h2>Подпишись на нашу рассылку</h2>
       <h3>Узнавайте первыми о наших обнавлениях</h3>
       <form class="" action="index.htm" method="post">
-        <div class="input-group">
-          <input class="form-control" type="email" name="email" value="" placeholder="Введите Ваш e-mail">
+        <div class="input-group email-inp">
+          <input class="form-control" type="email" name="email" value="" placeholder="Введите Ваш e-mail" required>
         </div>
-        <div class="input-group">
-          <input class="form-control btn btn-default" type="button" name="btn" value="Отправить">
+        <div class="input-group btn-inp">
+          <input class="form-control btn btn-default" type="submit" name="btn" value="Отправить">
         </div>
-
       </form>
+    </section>
+
+    <section class="news">
+      <h1>Статьи</h1>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <div class="col-md-4 new">
+          <p class="date">12/02/16</p>
+          <div class="social-inf">
+            <span><span><img src="" alt="" /></span>15</span>
+            <span><span><img src="" alt="" /></span>28</span>
+          </div>
+          <h4>Как выбрать трекер</h4>
+          <span class="tags">#TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG </span>
+          <p class="pre-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. dafsds sdfa df asdf sdf asdf asdf asdf a/..</p>
+        </div>
+        <div class="col-md-4 new">
+          <p class="date">12/02/16</p>
+          <div class="social-inf">
+            <span><span><img src="" alt="" /></span>15</span>
+            <span><span><img src="" alt="" /></span>28</span>
+          </div>
+          <h4>Как выбрать трекер</h4>
+          <span class="tags">#TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG </span>
+          <p class="pre-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. dafsds sdfa df asdf sdf asdf asdf asdf a/..</p>
+        </div>
+        <div class="col-md-4 new">
+          <p class="date">12/02/16</p>
+          <div class="social-inf">
+            <span><span><img src="" alt="" /></span>15</span>
+            <span><span><img src="" alt="" /></span>28</span>
+          </div>
+          <h4>Как выбрать трекер</h4>
+          <span class="tags">#TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG #TAG </span>
+          <p class="pre-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. dafsds sdfa df asdf sdf asdf asdf asdf a/..</p>
+        </div>
+      </div>
+      <div class="col-md-2">
+
+      </div>
     </section>
 
   </body>

@@ -5,7 +5,7 @@ body {
 
 header {
   height: 80px;
-  background-color: #FF5733;
+  background-color: #FA5029;
   color: white;
 }
 
@@ -48,7 +48,7 @@ header a:active, a:visited, a:link {
 
 .center-block ul li:hover {
   background-color: white;
-  color: #FF5733;
+  color: #FA5029;
   cursor: pointer;
 }
 
@@ -66,12 +66,12 @@ header a:active, a:visited, a:link {
 .right-block div.lang span.ru:hover, span.eng:hover {
   background-color: #FFF4EE;
   cursor: pointer;
-  color: #FF5733;
+  color: #FA5029;
 }
 
 .right-block div.lang .active{
   background-color: white;
-  color: #FF5733;
+  color: #FA5029;
 }
 
 /*media queries for heade*/
@@ -114,7 +114,7 @@ header a:active, a:visited, a:link {
 section.main {
   padding-top: 40px;
   height: 450px;
-  background-color: #FF5733;
+  background-color: #FA5029;
   color: white;
 }
 
@@ -341,7 +341,7 @@ section.main .app s img:first-child{
 
 section.scope {
   height: 420px;
-  background-color: #FF5733;
+  background-color: #FA5029;
 }
 
 section.scope h1{
@@ -349,7 +349,7 @@ section.scope h1{
   color: black;
 }
 
-section.scope .news .new .rect{
+section.scope .jumbs .jumb .rect{
   margin-left: 20px;
   width: 55px;
   height: 55px;
@@ -357,7 +357,7 @@ section.scope .news .new .rect{
   background: 50% 50% no-repeat white;
 }
 
-section.scope .news .new .txt{
+section.scope .jumbs .jumb .txt{
   display: block;
   position: absolute;
   width: 60%;
@@ -367,20 +367,20 @@ section.scope .news .new .txt{
   letter-spacing: 0.3px;
 }
 
-section.scope .news .new .txt .head-txt{
+section.scope .jumbs .jumb .txt .head-txt{
   font-weight: 600;
   font-size: 14px;
 }
 
-section.scope .news .new .txt .cont-txt{
+section.scope .jumbs .jumb .txt .cont-txt{
   font-size: 12px;
 }
 
-section.scope .news {
+section.scope .jumbs {
   margin-top: 40px;
 }
 
-section.scope .news-2 {
+section.scope .jumbs-2 {
   margin-top: 210px;
 }
 
@@ -389,33 +389,33 @@ section.scope .news-2 {
     height: 470px;
   }
 
-  section.scope .news-2 {
+  section.scope .jumbs-2 {
     margin-top: 230px;
   }
 
-  section.scope .news .new .rect{
+  section.scope .jumbs .jumb .rect{
     margin-left: 0px;
   }
 }
 
 @media  screen and (max-width : 770px) {
-  section.scope .news .new .rect{
+  section.scope .jumbs .jumb .rect{
     margin-left: 0px;
   }
 
-  section.scope .news-2 {
+  section.scope .jumbs-2 {
     margin-top: 100px;
   }
 
-  section.scope .news {
+  section.scope .jumbs {
     margin: 20px;
   }
 
-  section.scope .news .new {
+  section.scope .jumbs .jumb {
     margin: 40px;
   }
 
-  section.scope .news .new .txt{
+  section.scope .jumbs .jumb .txt{
     width: 80%;
   }
 
@@ -425,23 +425,23 @@ section.scope .news-2 {
 }
 
 @media  screen and (max-width : 470px) {
-  section.scope .news .new .rect{
+  section.scope .jumbs .jumb .rect{
     margin-left: 0px;
   }
 
-  section.scope .news-2 {
+  section.scope .jumbs-2 {
     margin-top: 100px;
   }
 
-  section.scope .news {
+  section.scope .jumbs {
     margin: 0px;
   }
 
-  section.scope .news .new {
+  section.scope .jumbs .jumb {
     margin: 70px 20px;
   }
 
-  section.scope .news .new .txt{
+  section.scope .jumbs .jumb .txt{
     width: 70%;
   }
 
@@ -451,27 +451,128 @@ section.scope .news-2 {
 }
 
 @media  screen and (max-width : 320px) {
-  section.scope .news .new .rect{
+  section.scope .jumbs .jumb .rect{
     margin-left: 0px;
   }
 
-  section.scope .news-2 {
+  section.scope .jumbs-2 {
     margin-top: 100px;
   }
 
-  section.scope .news {
+  section.scope .jumbs {
     margin: 0px;
   }
 
-  section.scope .news .new {
+  section.scope .jumbs .jumb {
     margin: 70px 0px;
   }
 
-  section.scope .news .new .txt{
+  section.scope .jumbs .jumb .txt{
     width: 70%;
   }
 
   section.scope {
     height: 940px;
   }
+}
+
+
+/*Subscription */
+
+section.subscribe {
+  text-align: center;
+}
+
+section.subscribe h2 {
+  color: #FA5029;
+  font-weight: bold;
+}
+
+section.subscribe h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+section.subscribe form div.email-inp {
+  width: 30%;
+  margin-left: 35%;
+}
+
+section.subscribe form div.email-inp input {
+  height: 50px;
+  background-color: #F7F6F6;
+}
+
+section.subscribe form div.email-inp input::-webkit-input-placeholder  {
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  color: #ACACAC;
+}
+
+section.subscribe form div.btn-inp {
+  margin-top: 25px;
+  width: 15%;
+  margin-left: 42.5%;
+}
+
+section.subscribe form div.btn-inp input{
+  height: 40px;
+  background-color: #FA5029;
+  color: white;
+}
+
+@media  screen and (max-width : 490px) {
+  section.subscribe form div.email-inp {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  section.subscribe form div.btn-inp {
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+
+
+
+/*section news*/
+
+section.news {
+  background-color: #FAFAFA;
+  height: 400px;
+}
+
+section.news .new {
+  border: 1px solid black;
+  width: 30%;
+  margin: 5px;
+}
+
+section.news .new h4 {
+  font-weight: bold;
+}
+
+section.news .new .date {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+section.news .new .social-inf {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+section.news .new .tags {
+  color: #FA5029;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+section.news .new .pre-content {
+  font-size: 13px;
 }
